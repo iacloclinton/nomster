@@ -19,7 +19,7 @@ body {
   background: url('/assets/index.jpeg');
 }
 .navbar.navbar-inverse {
-  background:url('/assets/1.jpg');
+  background:url('/assets/m.jpeg');
   border-radius: 0;
   box-shadow: 0px 1px 3px #2a2a2a;
   font-family: Constantia, "Lucida Bright",
@@ -29,3 +29,17 @@ body {
    "Liberation Serif", 
    Georgia, serif;
 }
+.navbar-inverse .navbar-brand {
+  color: #E3E85A;
+  font-family:'chunkfiveroman'; 
+  font-size:26px;
+}
+
+@font-face {
+    font-family: 'chunkfiveroman'; 
+     src: url ('AlexBrush-Regular.ttf');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
